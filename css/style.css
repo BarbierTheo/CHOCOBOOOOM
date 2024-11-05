@@ -135,6 +135,8 @@ aside>p {
     }
     section>img{
         margin: 0 auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         border-radius: 10px;
     }
 }
