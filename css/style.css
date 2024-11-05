@@ -20,8 +20,6 @@ header.container {
 
 body {
     background-color: #1b8b8f;
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
     width: 80%;
     margin: 0 auto;
@@ -60,15 +58,14 @@ section>img {
     width: 80%;
     border-radius: 10px;
     display: flex;
+    align-items: stretch;
     margin: 1rem;
 }
 
 
 section {
-    display: flex;
     flex-direction: column;
-    flex: 7;
-
+    width: 70%;
 }
 
 section>h2 {
@@ -93,10 +90,9 @@ p {
 }
 
 aside {
-    display: flex;
     flex-direction: column;
     background-color: white;
-    flex: 3;
+    width: 30%;
 }
 
 aside>h2 {
@@ -130,6 +126,16 @@ aside>p {
     }
     header.container {
         flex-direction: column;
+    }
+    aside {
+        width:100%;
+    }
+    section{
+        width: 100%;
+    }
+    section>img{
+        margin: 0 auto;
+        border-radius: 10px;
     }
 }
 
